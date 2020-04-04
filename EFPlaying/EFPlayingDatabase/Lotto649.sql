@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Lotto649]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY,
+	[Date] DATE NOT NULL,
+	[Num1] INT NOT NULL,
+	[Num2] INT NOT NULL,
+	[Num3] INT NOT NULL,
+	[Num4] INT NOT NULL,
+	[Num5] INT NOT NULL,
+	[Num6] INT NOT NULL,	
+	[Bonus] INT NOT NULL
+
+)
